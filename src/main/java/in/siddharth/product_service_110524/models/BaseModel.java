@@ -5,13 +5,13 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
+//@Entity
 public class BaseModel {
-    @Id
-    @Ge
+    //@Id
+    //@Ge
     private Long id;
-    private Date createdAt;
-    private Date updatedAt;
+    //private Date createdAt;
+  //  private Date updatedAt;
     private Boolean isDeleted = false;
 
 }
